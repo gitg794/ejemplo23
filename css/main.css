@@ -1,0 +1,118 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e8e8e8;
+}
+
+.menu{
+    position: fixed;
+    /* position: relative; */
+    width: 900px;
+    left: 30%;
+    top: -9px; 
+}
+
+/* estilo a ul */
+.menu ul{
+    list-style: none; 
+    padding: 0%;
+    background: #190150;
+    width: 60%;
+    margin: auto;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+/* .menu li li{
+    text-decoration: none;
+    color: white;
+} */
+
+.menu li{
+    display: inline-block;
+    /* float: left; */
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: #ef8354;
+    color: greenyellow;
+}
+
+
+#dos{
+    width: 50%;
+    background-color: rgb(189, 107, 107);
+       
+}
+#uno{
+    width: 20%;
+}
+
+/* menu redes sociales */
+#social{ 
+    display: list-item;
+    position:fixed;
+    background: #5080b8;
+    width: 130px;
+    text-align: center;
+    top: 0px;
+    left: 0;
+    border-radius: 0px 0px 20px 0px;
+
+}
+
+/* inicio estilos menu desplegable */
+.menu_desplegable ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#item{
+    float: left;
+    position: relative;
+}
+
+#item a{
+    text-decoration: none;
+    background: #190150;
+    color: white;
+    padding: 12px 22px;
+    display: block;
+}
+
+#item a:hover{
+    background: aqua;
+    color: black;
+}
+
+#submenu{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.menu_desplegable #item:hover #submenu{
+    display: block;
+}
+
+/* inicio estilo submenu_2 */
+#submenu_2{
+    display: none;
+    
+    right: -140px;
+    top: -42px;
+}
+
+#li_2:hover #submenu_2{
+    display: block;
+    position: relative;
+}
+/* fin submenu_2 */
+/* fin menu desplegable */
+
+
